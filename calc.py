@@ -3,6 +3,9 @@
 def add(a, b):
     return a + b
 
+def subtract(a:float,b:float)->float:
+    return a-b
+
 
 
 def multiply(a, b):
