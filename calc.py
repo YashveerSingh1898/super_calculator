@@ -3,9 +3,8 @@
 def add(a, b):
     return a + b
 
-def subtract(a,b):
-    return a-b
-
+def power(a, b):
+    return a**b
 
 def multiply(a, b):
     return a * b
@@ -25,7 +24,7 @@ def calculator():
         operation = input("Enter operation: ").strip().lower()
 
         if operation == "quit":
-            print("Goodbye!")
+            print("Goodbye!") 
             break
 
         if operation not in ["add", "subtract", "multiply", "divide"]:
